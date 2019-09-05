@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<piMain>
+<piDetails>
+<question>
+	<questionNo>4</questionNo>
+	<questionDes>During the past 5 years, has the name of the Insured(s) been changed?</questionDes>
+</question>
+<answer type="radio">
+	<answerDetails></answerDetails>
+</answer>
+</piDetails>
+<piDetails>
+<question>
+	<questionNo>5</questionNo>
+	<questionDes>During the past 5 years, has the name of the Insured(s) been changed?</questionDes>
+</question>
+<answer type="radio">
+	<answerDetails></answerDetails>
+</answer>
+</piDetails>
+</piMain>

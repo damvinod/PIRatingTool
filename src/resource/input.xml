@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<piMain>
+	<titlePane heading="Applicant Details">
+		<piDetails>
+			<question type="basic">
+				<questionNo>1.</questionNo>
+				<questionDes>Name of Insured:</questionDes>
+			</question>
+			<answer widType="textBox">
+				<textBoxDetails></textBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question type="basic">
+				<questionNo>2.</questionNo>
+				<questionDes>Address(es):</questionDes>
+			</question>
+			<answer widType="textBox">
+				<textBoxDetails></textBoxDetails>
+			</answer>
+		</piDetails>
+	</titlePane>
+	<titlePane heading="Business Activities">
+		<piDetails>
+			<question validation="Y">
+				<questionNo>4.</questionNo>
+				<questionDes>During the past 5 years, has the name of the Insured(s)
+					been changed?
+				</questionDes>
+			</question>
+			<answer widType="radio">
+				<radioDetails></radioDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question validation="Y">
+				<questionNo>5.</questionNo>
+				<questionDes>During the past 5 years, has any other business(es)
+					been purchased, merged or consolidated with the Insured?
+				</questionDes>
+			</question>
+			<answer widType="radio">
+				<radioDetails></radioDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo>6.</questionNo>
+				<questionDes>Please indicate the type of professional services
+					provided and the approximate percentage of each relative to the
+					Firm's total gross fee income
+				</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo>7.</questionNo>
+				<questionDes>Activity/ Nature of Work</questionDes>
+			</question>
+			<answer widType="label">
+				<labelDetails>
+					<labelDes>Percentage (%) of Fee Income</labelDes>
+				</labelDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question validation="Y">
+				<questionNo></questionNo>
+				<questionDes>Architecture</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-architecture" maxlength="3"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question validation="Y">
+				<questionNo></questionNo>
+				<questionDes>Interior Design</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-interiorDesign" maxlength="3"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo></questionNo>
+				<questionDes>Total</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-total" maxlength="5"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+	</titlePane>
+	<titlePane heading="Risk Management">
+		<piDetails>
+			<question validation="Y">
+				<questionNo>9.</questionNo>
+				<questionDes>Does legal counsel always
+					review your contracts,
+					including changes to standard contracts/
+					letters of engagement?
+				</questionDes>
+			</question>
+			<answer widType="radio">
+				<radioDetails></radioDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question validation="Y">
+				<questionNo>10.</questionNo>
+				<questionDes>Does the firm use
+					sub-contractors? (sub-contractors
+					includes any "outside
+					consultants")
+				</questionDes>
+			</question>
+			<answer widType="radio">
+				<radioDetails></radioDetails>
+			</answer>
+		</piDetails>
+	</titlePane>
+	<titlePane heading="Insurance and Loss History">
+		<piDetails>
+			<question validation="Y">
+				<questionNo>11.</questionNo>
+				<questionDes>Is any partner, director or
+					principal after inquiry
+					aware of any claims ever been made
+					against the Insured(s) or their
+					predecessors in business or any
+					of the present or former partners,
+					directors or principals?
+				</questionDes>
+			</question>
+			<answer widType="radio">
+				<radioDetails></radioDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question validation="Y">
+				<questionNo>12.</questionNo>
+				<questionDes>Is any partner, director or
+					principal after inquiry,
+					aware of any circumstances or
+					occurrences which may give rise to a
+					claim against the Insured or
+					their predecessors in business or any
+					of the present or former
+					partners, directors or principals?
+				</questionDes>
+			</question>
+			<answer widType="radio">
+				<radioDetails></radioDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo>13.</questionNo>
+				<questionDes>Previous Policy details</questionDes>
+			</question>
+			<answer widType="label">
+				<labelDetails></labelDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo></questionNo>
+				<questionDes>Period</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-period" maxlength="5"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo></questionNo>
+				<questionDes>Insurer</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-insurer" maxlength="5"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo></questionNo>
+				<questionDes>Limit</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-limit" maxlength="5"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo></questionNo>
+				<questionDes>Excess</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-excess" maxlength="5"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question validation="Y">
+				<questionNo>14.</questionNo>
+				<questionDes>Please specify Limit of Liability desired</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-limit-desired" maxlength="5"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+		<piDetails>
+			<question>
+				<questionNo>15.</questionNo>
+				<questionDes>Please specify Deductible desired</questionDes>
+			</question>
+			<answer widType="percentageTextBox">
+				<percentageTextBoxDetails id="pi-deduc-desired" maxlength="5"></percentageTextBoxDetails>
+			</answer>
+		</piDetails>
+	</titlePane>
+</piMain>
